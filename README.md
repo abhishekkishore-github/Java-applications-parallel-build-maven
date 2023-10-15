@@ -37,6 +37,7 @@ Prerequisites:
         Stage 5: Use the Shell Script to push the application image on AWS ECR.
         Stage 6: Update the YAML manifests files to include the latest build tag for application 1 and deploy the latest application version on the Kubernetes cluster
         Stage 7: Update the YAML manifests files to include the latest build tag for application 2 and deploy the latest application version on the Kubernetes cluster
+        Note : Edit the pipeline stages codes and Kubernetes manifest files with your DockerHub username, Github email and, GitHub Username as required.
 
     5. Run the Jenkins pipeline:
        5.1 Trigger the Jenkins pipeline to start the CI/CD process for both Java applications.
